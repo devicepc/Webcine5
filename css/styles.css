@@ -718,15 +718,15 @@ text-decoration: none;
     margin-left: 0px;
 }
 #SelectF2{
-    width: 150px;
+    width: 50px;
     text-align-last: center;
     padding: 9px;
-    width:400px;
-    border-radius: 1px;
+    border-radius: 5px;
     border: 1px solid #ddd;
     font-weight: 600;
-    color: #868585;
+    /* color: #868585; */
     font-size: 16px;
+    margin-left: 10%;
 }
 .infoFooter a:link{
     color: #FFf;
@@ -910,6 +910,8 @@ margin-top: 850px;
     }
     .slider2{
         display: block;
+        width: 70%;
+        margin-left: 10%;
     }
     .slider{
         display: none;
@@ -924,7 +926,8 @@ margin-top: 850px;
         margin-left: 25%;
     }
     #SelectF2{
-        width: 500px;
+        width: 50%;
+        margin-right: 20%;
     }
     .SelectF{
         width: 50%;
@@ -936,9 +939,12 @@ margin-top: 850px;
     .trailer{
         width: 100%;
     }
-    .trailer iframe{
-        width: 100%;
+    .slider2 img {
+        width:70%;
+        height: 375px;
+        border-radius: 10px;
     }
+    
  }
 
 
