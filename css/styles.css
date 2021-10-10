@@ -585,325 +585,21 @@ header label:hover{
 /* responsive */
 
 /* responsive  menu*/
-
-@media  screen and (min-device-width: 320px)
-and (max-device-width: 767px) {
-
-
-    .logo{
-        width: 100px;
-        height: 100px;
-    }
-    .TiposPeliculas{
-        margin-top: 90px;
-        margin-left: 5px;
-    }
-   .TiposPeliculas a{
-    padding: 6px;
-   }
-   .titulo{
-       margin-left: 90%;
-   }
-   .infopeliResum h3{
-       margin-left: 50px;
-   }
-   .Labelform{
-       margin-left: 40%;
-   }
-   .buttonform{
-       margin-left: 100px;
-   }
-   .slider2 {
-    margin-top: 50px;
-    width: 98%;
-    margin-left: 1%;
-}
-.slider2 img{
-    width: 100%;
-}
-
-.infoFooter a:link{
-    color: #FFf;
-    font-size: 12px;
-    text-decoration: none;
-}
-.infoFooter a:active{
-color: #FFf;
-font-size: 12px;
-text-decoration: none;
-}
-.infoFooter a:visited{
-color: #FFf;
-font-size: 12px;
-text-decoration: none;
-}
-}
-    
-
-    @media (max-width:768px){
-
-
-.H5cabecera{
-    font-size: 13px;
-  padding:10px;
-  margin-left: 2%;
-  margin-right: 5%;
-
-}
-
-        header label{
-            display: block;
-        }
-        .menu{
-            position: absolute;
-            background: rgb(105, 104, 104);
-            width: 70%;
-            margin-left: -72%;
-            transition: all 0.5s;
-        }
-.menu ul{
-    flex-direction: column;
-}
-.menu li{
-    border-top: 1px solid rgb(39, 39, 39);;
-}
-#btn-menu:checked ~ .menu{
-    margin: 0;
-}
-.prueba{
-    width: 100%;
-}
-.infopeliResum h3{
-    margin-top: 100px;
-    text-align: center;
-    font-size: 50px;
-    
-}
-
-.slider{
-    margin-top: 3500px;
-    width: 100%;
-}
-.infopeliResum{
-    margin-top: 800px;
-}
-#Infosalas3{
-    display: none;
-}
-.InfoSalas2{
-    width: 100%;
-    display: block;
-}
-#Infosalas4{
-    display: block;
-}
-.slider2{
-    margin-top: 50px;
-    width: 98%;
-    margin-left: 1%;
-}
-
-.slider{
-    display: none;
-}
-.trailer iframe{
-    margin-left: -90px;
-}
-
-.aslider{
-    margin-left: 560px; 
-}
-.InfoGral{
-    width: 100%;
-    margin-left: 0px;
-}
-#SelectF2{
-    width: 50px;
-    text-align-last: center;
-    padding: 9px;
-    border-radius: 5px;
-    border: 1px solid #ddd;
-    font-weight: 600;
-    /* color: #868585; */
-    font-size: 16px;
-    margin-left: 10%;
-}
-.infoFooter a:link{
-    color: #FFf;
-    font-size: 18px;
-    text-decoration: none;
-}
-
-.infoFooter a:visited{
-color: #FFf;
-font-size: 18px;
-text-decoration: none;
-}
-.InfoFooterCompany{
-    font-size: 15px;
-}
-
-    }
-
-    @media (min-width:769px){
-
- .prueba{
-     width: 800px;
- }
- .prueba img{
-     max-width: 700px;
- }
- .InfoSalas2{ 
-    width: 100%;
- }
- .InfoSalas{
-     display: none;
- }
-.Labelform{
-    font-size: 20px;
-    margin-left: 1%;
-}
-.SelectF{
-    width: 300px;
-    
-}
-
-.slider2{
-    margin-top: 50px;
-    width: 98%;
-    margin-left: 1%;
-}
-
-.slider{
-    display: none;
-}
-.infopeliResum{
-margin-top: 850px;
-}
-
-    }
-@media (max-width:1024px){
-   /*  .slider{
-        margin-left: 10%;
-     } 
- */
- .prueba{
-    margin-left: -100px;
-    margin-top: 100px;
-    
-}
-.slider2{
-    display: block;
-}
- 
-.aslider{
-
-    width: 100px;
-    padding: 15px 0;
-    margin-top: -60px;
-    margin-left: 365px;
-    text-decoration: none;
-}
-.InfoSalas{
-    margin-left: 30px;
-    display: block;
-    
-}
-
-.H5cabecera{
-    font-size: 1em;
-  padding:10px;
-  margin-left: 2%;
-  margin-right: 5%;
-
-}
-.menu li a{
-    display: block;
-    padding: 15px 50px;
-    color: black;
-    text-decoration: none;
-    font-size: 20px;
-}
-.trailer{
-    margin-left: 15%;
-    
-}
-.slider {
-	width: 48%;
-	margin: auto;
-    margin-left: 0%;
-	overflow: hidden;
-    height: 400px;
-    border-radius: 20px;
-    box-shadow: 0 0 0 5px rgb(236, 233, 233), 
-                 0 10px 20px  ;
-}
-
-}
-
-@media (min-width:1024px){
-
-.InfoSalas2{
-    display: none;
-}
-.slider2{
-    display: none;
-}
-.slider {
-    display: block;
-	
-}
-.InfoSalas{
-    display:block;
-}
-.infopeliResum{
-    margin-top: -100px;
-}
-.header{
-    width: 100%;
-}
-.menu li a{        
-        padding: 15px 50px;
-    }
-    .Labelform{
-        font-size: 24px;
-        font-weight: bolder;
-        margin-left: 50px;
-        
-    }
-        
-
-}
-@media screen and (min-width: 768px) and (max-width: 1024px) { 
-
-    .InfoSalas2{
-        display:none;
-    }
-
-}
-@media screen and (min-width: 1024px) and (max-width: 1361px) { 
-    .Aficheprueba{
-        margin-left: 0px;
-    }
-    .pclas{
-        margin-left: 20px;
-    }
-.infopeliResum{
-    margin-top: 20px;
-}
-.trailer{
-    margin-left: 18%;
-}
-
- }
-
- @media screen and (max-width: 1100px){
+  
+@media screen and (max-width: 1024px){
+     .H5cabecera{
+         margin-right: 120px;
+         
+     }
     #Infosalas3{
         display: none;
     }
     .InfoSalas2{
         width: 100%;
         display: block;
+    }
+    .InfoSalas2 form{
+        height: 500px;
     }
     #Infosalas4{
         display: block;
@@ -936,15 +632,361 @@ margin-top: 850px;
     .Labelform{
         margin-left: 30%;
     }
-    .trailer{
+    .trailer {
         width: 100%;
+        margin-left: 0px;
+    }
+    .trailer iframe{
+        width: 100%;
+        height: 500px;
+    }
+    .InfoGral{
+        padding-bottom: 20px;
     }
     .slider2 img {
         width:70%;
         height: 375px;
         border-radius: 10px;
     }
+    .menu li a{
+        display: block;
+        padding: 5% 50px;
+        color: black;
+        text-decoration: none;
+        font-size: 24px;
+    }
     
+    .infoFooter h4{
+        font-size: 1em;
+        margin-left: 2px;
+    }
+    .infoFooter{
+        width: 32%;
+    }
+   
+   .infoFooter a{
+       font-size: 0.8em;
+       margin-right: 5%;
+       
+   }
+  
+        
+ }
+ @media screen and  (max-width:320px ){
+    .slider2 img {
+        width:304px;
+        height: 375px;
+        border-radius: 10px;
+    }
+ }
+    
+ @media screen and  (max-width:395px ){
+    .cabecera{
+        width: 100%;
+    }
+.H5cabecera{
+   margin-top: -30px;
+}
+.TiposPeliculas a{
+   font-size: 0.8em;
+   margin-right: -30px;
+}
+.titulo{
+   font-size: 1.65em;
+}
+.Aficheprueba{
+    margin-left: -80px;
+    width: 240%;
+}
+.pclas{
+    margin-left: 0px;
+    font-size: 1.3em;
+    height: 27px;
+    padding-top: 3%;
+}
+.infopeliResum h3{
+    margin-left: 3%;
+}
+.InfoGral{
+    padding-bottom: 20px;
+}
+#SelectF2{
+    width: 85%;
+}
+.SelectF{
+   margin-left: 5%;
+   width: 85%;
+}
+.buttonform{
+   margin-left: 15%;
+}
+#entradas img{
+   width: 277px;
+   margin-left: -50px;
+}
+
+#container{
+   height: 200px;
+   width: 277px;
+   margin-left: -60px;
+}
+#number{
+   width: 100%;
+}
+#increment{
+   height: 25px;
+width: 70px;
+margin-left: -30px;
+}
+
+#decrement{
+height: 25px;
+width: 70px;
+margin-right: -20px;
+}
+.avisoticket{
+   width: 100%;
+   height: 200px;
+}
+.infoentradas{
+   width: 300px;
+   margin-left: 50px;
+}
+#pdfexport1{
+   margin-left: -220px;
+   width: 220px;
+}
+
+#aviso1 img{
+   width: 40px;
+   height: 40px;
+   margin-left: 60px;
+   
+}
+.infoFooter h4{
+    font-size: 0.8em;
+
+}
+
+.infoFooter a{
+   font-size: 0.6em;
+   
+}
+.infoFooter a:link{
+   color: #FFf;
+   font-size: 0.6em;
+   text-decoration: none;
+}
+.infoFooter a:active{
+color: #FFf;
+font-size: 0.6em;
+text-decoration: none;
+}
+.infoFooter a:visited{
+color: #FFf;
+font-size: 0.6em;
+text-decoration: none;
+}
+.infoFooter a:hover{
+color: #019395;
+font-size: 0.6em;
+text-decoration: none;
+}
+.InfoFooterCompany{
+   text-align: center;
+   font-size: 0.6em;
+   font-weight: bolder;
+}
+    .slider2{
+        width: 100%;
+        margin-left: 0px;
+    }
+    .slider2 img {
+        width:347px;
+        height: 375px;
+        border-radius: 10px;
+    }
+ }
+ 
+ @media screen and (min-width:396px) and (max-width: 500px){
+     .cabecera{
+         width: 100%;
+     }
+.H5cabecera{
+    margin-top: -30px;
+}
+.TiposPeliculas a{
+    font-size: 0.8em;
+    margin-right: -30px;
+}
+.titulo{
+    font-size: 1.65em;
+}
+ .Aficheprueba{
+     margin-left: -80px;
+     width: 240%;
+ }
+ .pclas{
+     margin-left: 0px;
+     font-size: 1.3em;
+     height: 27px;
+     padding-top: 3%;
+ }
+ .infopeliResum h3{
+     margin-left: 3%;
+ }
+ .InfoGral{
+     padding-bottom: 20px;
+ }
+ #SelectF2{
+     width: 85%;
+ }
+ .SelectF{
+    margin-left: 5%;
+    width: 85%;
+}
+.buttonform{
+    margin-left: 15%;
+}
+#entradas img{
+    width: 277px;
+    margin-left: -50px;
+}
+
+#container{
+    height: 200px;
+    width: 277px;
+    margin-left: -60px;
+}
+#number{
+    width: 100%;
+}
+#increment{
+    height: 25px;
+width: 70px;
+margin-left: -30px;
+}
+
+#decrement{
+height: 25px;
+width: 70px;
+margin-right: -20px;
+}
+.avisoticket{
+    width: 100%;
+    height: 200px;
+}
+.infoentradas{
+    width: 300px;
+    margin-left: 50px;
+}
+#pdfexport1{
+    margin-left: -220px;
+    width: 220px;
+}
+
+#aviso1 img{
+    width: 40px;
+    height: 40px;
+    margin-left: 60px;
+    
+}
+ .slider2{
+     width: 100%;
+     margin-left: 0px;
+ }
+ .infoFooter h4{
+     font-size: 0.8em;
+ }
+
+.infoFooter a{
+    font-size: 0.6em;
+}
+.infoFooter a:link{
+    color: #FFf;
+    font-size: 0.6em;
+    text-decoration: none;
+}
+.infoFooter a:active{
+color: #FFf;
+font-size: 0.6em;
+text-decoration: none;
+}
+.infoFooter a:visited{
+color: #FFf;
+font-size: 0.6em;
+text-decoration: none;
+}
+.infoFooter a:hover{
+color: #019395;
+font-size: 0.6em;
+text-decoration: none;
+}
+.InfoFooterCompany{
+    text-align: center;
+    font-size: 0.6em;
+    font-weight: bolder;
+}
+.slider2 img {
+	width:359px;
+    height: 375px;
+    border-radius: 10px;
+}
+     
+ }
+
+   @media (max-width:768px){
+
+
+.H5cabecera{
+    font-size: 13px;
+  padding:10px;
+  margin-left: 2%;
+  margin-right: 5%;
+
+}
+
+        header label{
+            display: block;
+        }
+        .menu{
+            position: absolute;
+            background: rgb(105, 104, 104);
+            width: 70%;
+            margin-left: -72%;
+            transition: all 0.5s;
+        }
+.menu ul{
+    flex-direction: column;
+}
+.menu li{
+    border-top: 1px solid rgb(39, 39, 39);;
+}
+#btn-menu:checked ~ .menu{
+    margin: 0;
+}
+.prueba{
+    width: 100%;
+}
+    }
+ @media screen and (min-width: 1025px){
+.InfoSalas2{
+    display: none;
+}
+.slider2{
+    display: none;
+}
+.trailer{
+    margin-left: 20%;
+}
+
+.menu li a{
+    display: block;
+    padding: 5% 50px;
+    color: black;
+    text-decoration: none;
+    font-size: 24px;
+}
  }
 
 
