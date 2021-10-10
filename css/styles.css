@@ -933,6 +933,12 @@ margin-top: 850px;
     .Labelform{
         margin-left: 30%;
     }
+    .trailer{
+        width: 100%;
+    }
+    .trailer iframe{
+        width: 100%;
+    }
  }
 
 
